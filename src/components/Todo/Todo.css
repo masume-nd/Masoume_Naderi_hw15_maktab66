@@ -1,0 +1,24 @@
+.todo-list{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+.todo{
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  border-radius: 2rem;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px 15px;
+  border: 2px solid #7208b9;
+  color: #470672;
+  background-color: transparent;
+}
+.complete{
+  text-decoration: line-through;
+}
