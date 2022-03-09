@@ -17,22 +17,40 @@ body{
   text-align: center;
   margin: 3rem;
 }
-.pellMell-img{
-  width: 23vw;
-  height: 50vh;
-  position: absolute;
-  top: 45vh;
-  left: 70vw;
-  transform: rotate(15deg);
-  opacity: .6;
-}
-.citty-img{
-  width: 30vw;
-  height: 70vh;
-  transform: rotate(-5deg);
-  position: absolute;
-  right: 67vw;
-  top: 8vh;
-  opacity: .4;
 
+
+@media only screen and (min-width:700px) {
+  .pellMell-img{
+    width: 23vw;
+    height: 50vh;
+    position: absolute;
+    top: 45vh;
+    left: 70vw;
+    transform: rotate(15deg);
+    opacity: .6;
+  }
+  .citty-img{
+    width: 30vw;
+    height: 70vh;
+    transform: rotate(-5deg);
+    position: absolute;
+    right: 67vw;
+    top: 8vh;
+    opacity: .4;
+  
+  }
+
+}
+
+
+@media only screen and (max-width:700px) {
+  .pellMell-img{
+   display: none;
+  }
+  .citty-img{
+    display: none;
+  }
+  .header-txt{
+    font-size: 25px;
+  }
 }
